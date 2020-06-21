@@ -1,5 +1,29 @@
+img {
+    vertical-align: bottom;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.page {
+    background-color: #ffffff;
+    color: #212121;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
 @import "./components/footer";
 @import "./components/modal";
+@import "./components/header";
+@import "./components/other";
+@import "./components/hero";
 
 
 .container {
