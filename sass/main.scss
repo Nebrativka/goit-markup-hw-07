@@ -18,12 +18,12 @@ html {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
-
-@import "./components/footer";
-@import "./components/modal";
 @import "./components/header";
-@import "./components/other";
 @import "./components/hero";
+@import "./components/modal";
+@import "./components/other";
+@import "./components/footer";
+
 
 
 .container {
