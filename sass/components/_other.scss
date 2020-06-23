@@ -16,7 +16,8 @@
     /* outline: solid 1px tomato; */
 }
 
-.antenna::before {
+.antenna {
+    &::before{
     display: block;
     content: '';
     width: 270px;
@@ -27,6 +28,7 @@
     background-position: center;
     background-color: #f5f4fa;
     /* outline: solid 1px teal; */
+}
 }
 
 .clock::before {

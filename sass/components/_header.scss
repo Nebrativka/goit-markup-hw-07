@@ -6,6 +6,11 @@
     }
 }
 
+.address {
+    display: flex;
+    color: #757575;
+    margin-left: auto;
+}
 .logo-color {
     color: #2196F3;
 }
@@ -59,13 +64,11 @@
     margin-right: 40px;
 }
 
-.address {
-    color: #757575;
+.item{
+    position: relative;
 }
 
-.address {
-    display: flex;
-}
+
 
 .address .item:not(:last-child) {
     margin-right: 50px;
